@@ -35,6 +35,7 @@ public class FilePrinterTest {
     public void testFilePrinter(){
         assertNotNull("File Printer is null", filePrinter);
         assertNotNull("JSON not built", json);
+        
         System.out.println(json);
     }
 }
